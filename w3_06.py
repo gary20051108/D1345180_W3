@@ -1,0 +1,6 @@
+a=int(input("係數"))
+b=int(input("係數"))
+c=int(input("係數"))
+x1=float((-b+(b**2-4*a*c)**0.5)/2*a)
+x2=float((-b-(b**2-4*a*c)**0.5)/2*a)
+print(x1,x2)
