@@ -1,0 +1,12 @@
+import math
+n=int(input("輸入一個數"))
+a=int(n//10000)
+b=int(math.floor(n/1000)-a*10)
+c=int(math.floor(n/100)-math.floor(n/1000)*10)
+d=int(math.floor(n/10)-math.floor(n/100)*10)
+e=int(n-math.floor(n/10)*10)
+print(a)
+print(b)
+print(c)
+print(d)
+print(e)
